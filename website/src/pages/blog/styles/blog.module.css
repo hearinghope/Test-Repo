@@ -1,0 +1,131 @@
+/*--------- BLOG PAGE STYLING -----------*/
+
+
+
+.blogHeading {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ff6600;
+}
+
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  
+  padding: 20px;
+}
+
+.Blogcard {
+  width: 380px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Blogcard:hover {
+  transform: scale(1.025);
+}
+
+.BlogCardimg {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.BlogCardContent {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.BlogCardHeading {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.BlogCardDescription {
+  margin-bottom: 16px;
+  line-height: 23px;
+  color: #555;
+}
+
+.BlogBtn {
+  background-color: rgb(1,146,116);
+  color: #fff;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.BlogBtn:hover{
+  background-color: rgba(1, 146, 117, 0.862);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .Blogcard {
+    width: 100%;
+  }
+}
+
+
+  /*--------- PARTICULAR BLOG PAGE STYLING -----------*/
+
+.BlogContainer{
+    margin: 120px 150px;
+}
+
+.BlogHeading{
+    color: #ff6600;
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.BlogImage{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.BlogImage Image{
+    border-radius: 10px;
+    background-color: rgb(36, 35, 35);
+}
+
+.BlogDescription{
+    margin: 10px;
+}
+
+.BlogDescription p{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: start;
+}
+
+.BlogDescription ul li{
+    line-height: 35px;
+}
+
+@media (max-width:800px){
+  .BlogContainer{
+    margin:150px 60px;
+  }
+}
+
+@media (max-width:400px){
+  .BlogContainer{
+    margin:150px 30px;
+  }
+}

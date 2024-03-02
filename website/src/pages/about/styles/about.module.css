@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+
+/*-------- ABOUT HEADER ---------*/
+
+.AboutContainer{
+    margin-top: 70px;
+    padding: 0;
+}
+
+.AboutContainer img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  margin: 0;
+  display: block;
+}
+
+.AboutCounter {
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+  }
+  
+.countersContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    background: rgb(1,146,116);
+    background: linear-gradient(90deg, rgba(1,146,116,1) 0%, rgba(86,200,175,1) 40%, rgba(86,200,175,1) 51%, rgba(1,146,116,1) 100%);
+    margin: 0;
+  }
+  
+  .AboutCounter {
+    margin: 0px;
+    font-size: 18px;
+  }
+  
+  .CountUp {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  @media (max-width: 780px) {
+    .countersContainer {
+      flex-direction: column;
+    }
+    .AboutContainer{
+      margin-top: 100px
+    }
+    .AboutContainer img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      margin: 0;
+      display: block;
+    }
+  }
+  
+  
+
+/*-------- ABOUT DESCRIPTION ---------*/
+
+.AboutDescriptionContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px 80px 100px;
+}
+
+.AboutDescriptionContainer2{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px 80px 50px;
+}
+
+
+.AboutDescriptionContainer h1{
+  margin-bottom: 35px;
+  font-size: 45px;
+}
+
+.AboutDescriptionRow1{
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.AboutDescriptionRow2{
+  margin-left: 40px;
+
+}
+
+.AboutDescriptionRow2 ul li{
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.AboutDescriptionContainer h2{
+  margin-bottom: 35px;
+  font-size: 45px;
+}
+
+
+.AboutDescriptionContainer p{
+  line-height: 30px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 950px) {
+  .AboutDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px 80px 20px; 
+  }
+
+  .AboutDescriptionContainer2{
+    flex-direction: column;
+  }
+  .AboutDescriptionRow1{
+    width: 100%;
+
+  }
+
+  .AboutDescriptionRow2{
+    margin-left: 0;
+  }
+  
+  .AboutDescriptionContainer h1 {
+    margin-bottom: 20px; 
+    font-size: 36px; 
+    text-align: center; 
+  }
+  
+  .AboutDescriptionContainer p {
+    line-height: 1.6; 
+    font-size: 18px; 
+    text-align: justify; 
+  }
+  
+}
+
+/*-------- ABOUT CARDS ---------*/
+
+
+.card {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.flipCard {
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  perspective: 1000px;
+  border-radius: 10px;
+  margin: 0px 10px 20px 10px; 
+}
+
+  .flipCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flipCard:hover .flipCardInner {
+    transform: rotateY(180deg);
+  }
+
+  .cardimge{
+    height: 400px;
+    width: auto;
+    border-radius: 10px;
+  }
+  
+  .flipCardFront,
+  .flipCardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+
+  .flipCardBack{
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+  
+  .flipCardFront {
+    background-color: #bbb;
+    color: black;
+    
+  }
+  
+  .flipCardBack {
+    background: rgb(1,146,116);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+    
+  @media screen and (max-width: 820px) {
+    .card {
+      flex-wrap:wrap;
+      align-items: center; 
+    }
+  
+    .flipCard {
+      margin: 0px 0px 20px 0px; 
+    }
+    .AboutCard{
+      margin-bottom: 300px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .card {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .flipCard {
+      margin: 0px 0px 20px 0px; 
+    }
+    .AboutCard{
+      margin-bottom: 300px;
+    }
+  }
+
+  
+/*-------- ABOUT TESTIMONIALS ---------*/
+
+.Testimonialcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.TestimonialcardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Testimonialcard {
+  background-color: white;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-radius: 7px;
+  border: none;
+  margin: 10px;
+  padding: 20px;
+  width: 400px;
+}
+
+.Testimonialcard:hover {
+  transform: translateY(-5px);
+}
+
+.userInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userimge {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.userName {
+  flex-grow: 1;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: #f39c12; /* Star color */
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.review {
+  margin-top: 10px;
+}
+
+
+
+
+@media (max-width: 800px) {
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  .Testimonialcontainer{
+    margin-top: 350px;
+    margin-bottom: 320px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 48%;
+  }
+
+}
+@media (max-width: 450px) {
+  .Testimonialcontainer{
+    margin-top: 450px;
+    margin-bottom: 450px;
+  }
+
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
+@media (max-width: 370px) {
+  .Testimonialcontainer{
+    margin-top: 390px;
+    margin-bottom: 400px;
+  }
+
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/*-------- ABOUT CERTIFICATE ---------*/
+
+  .carouselContainer h1 {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+  
+  .carouselContainer {
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin-top: 20px;
+    overflow-y: hidden;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+  }
+  
+  .carousel::-webkit-scrollbar {
+    display: none; 
+  }
+  .certificationItem {
+    flex: 0 0 auto;
+    width: 100%; 
+    max-width: 300px; 
+    margin-right: 20px;
+    scroll-snap-align: start;
+  }
+  
+  .certificationItem img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .certificationItem h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+  }
+  
+ 
+.controls {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .controlButton {
+    cursor: pointer;
+    padding: 8px;
+    font-size: 1.5em;
+  }
+  
+  .leftButton {
+    position: absolute;
+    left: 0;
+  }
+  
+  .rightButton {
+    position: absolute;
+    right: 0;
+  }
+  .dots {
+    margin-top: 10px;
+  }
+  
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 166, 0, 0.577);
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .activeDot {
+    background-color:black;
+  }
+  
+  /* Responsive Styles */
+
+  @media (max-width: 864px) {
+    .carouselContainer{
+      margin-top: 130px;
+    }
+    .certificationItem {
+      width: 100%;
+      max-width: none;
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .carouselContainer{
+      margin-top: 100px;
+    }
+    .certificationItem {
+      width: 100%;
+      max-width: none;
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .carouselContainer{
+      margin-top: 120px;
+    }
+    .certificationItem {
+      width: 100%;
+      max-width: none;
+      margin-right: 0;
+    }
+  }
+
+  

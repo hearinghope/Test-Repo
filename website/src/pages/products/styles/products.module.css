@@ -1,0 +1,232 @@
+
+
+/*--------- HOME PRODUCT -------------*/
+
+.ProductsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 150px 20px 150px;
+}
+
+.ProductsContainer2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 130px 150px 20px 150px;
+}
+
+.ProductsContent{
+    background-color: white;
+    padding: 25px;
+    border-radius:10px;
+    box-shadow: 0px 8px 12px rgba(41, 41, 41, 0.188);
+
+}
+
+.ProductsContent h1{
+   color: #ff6600;
+   margin-bottom: 20px;
+}
+
+.ProductsContent p{
+    line-height: 27px;
+}
+
+.Productsimge img{
+  position: relative;
+  top: -50px;
+  width: auto;
+  height: 400px;
+}
+.Productsimge img:hover {
+  transform: translateY(-5px);
+}
+@media (max-width: 1150px) {
+  .ProductsContainer{
+     margin: 10px 50px 80px 50px;   
+  }
+  .ProductsContainer2{
+    margin: 60px 50px 80px 50px;   
+ }
+
+}
+
+
+@media (max-width: 938px) {
+  .ProductsContainer2{
+     margin: 100px 50px 100px 50px;
+      
+  }
+  .Productsimge img{
+      display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .ProductsContainer2{
+     margin: 150px 50px 100px 50px;
+      
+  }
+  .Productsimge img{
+      display: none;
+  }
+}
+
+
+@media (max-width: 405px) {
+  .ProductsContainer2{
+    margin: 140px 50px 80px 50px;   
+ }
+
+  .Productsimge img{
+      display: none;
+  }
+}
+
+
+
+
+/*--------- PRODUCT CAROUSEL -------------*/
+
+  
+  .ProductcarouselContainer {
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+    overflow: hidden;
+    margin-bottom: 0px;
+    position: relative;
+    top: -80px;
+  }
+  
+    
+  @media (max-width: 768px) {
+  
+    .ProductcarouselContainer{
+      margin-top: 10px;
+    }
+  }
+
+  .carouselContainer h1 {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+  
+  .carouselContainer {
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: 0px;
+  }
+  
+.imgeUrl{
+  background-color: transparent;
+}
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin-top: 20px;
+    overflow-y: hidden;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+  }
+  
+  .carousel::-webkit-scrollbar {
+    display: none; 
+  }
+  .certificationItem {
+    flex: 0 0 auto;
+    width: 100%; 
+    max-width: 300px; 
+    margin-right: 20px;
+    scroll-snap-align:start;
+    background-color: transparent;
+
+  }
+  
+  .certificationItem img {
+    height: 250px;
+    width: 250px;
+    max-width: 100%;
+    border-radius: 8px;
+    background-color: transparent;
+  }
+
+  .certificationItem img:hover {
+    transform: translateY(-5px);
+  }
+  
+  .certificationItem h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+  }
+  
+ 
+.controls {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .controlButton {
+    cursor: pointer;
+    padding: 8px;
+    font-size: 1.5em;
+  }
+  
+  .leftButton {
+    position: absolute;
+    left: 0;
+  }
+  
+  .rightButton {
+    position: absolute;
+    right: 0;
+  }
+  .dots {
+    margin-top: 25px;
+  }
+  
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 166, 0, 0.577);
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .activeDot {
+    background-color: orange;
+  }
+
+  .ProductsName{
+   font-size: 17px;
+   font-weight: 500;
+   position: relative;
+   top: 0px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .certificationItem {
+      width: 100%;
+      max-width: none;
+      margin-right: 0;
+    }
+    .carouselContainer{
+      margin-top: 300px;
+    }
+    .ProductcarouselContainer{
+      margin-top: 60px;
+    }
+  }

@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+
+
+/* ---------- CONTACT HEADER ---------- */
+
+/* ContactForm.module.css */
+
+/* Section Styles */
+.contactSection {
+  width: 100%;
+  padding: 0px 0;
+}
+
+/* Container Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  top: -80px;
+}
+
+/* Centered Row Styles */
+.rowCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered Column Styles */
+.colCenter {
+  text-align: center;
+}
+
+/* Heading Styles */
+.heading {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Wrapper Styles */
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Contact Form Styles */
+.contactWrap {
+  background-color: #fff;
+  padding: 30px;
+  height: 450px;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Message Styles */
+#form-message-warning,
+#form-message-success {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #dc3545;
+}
+
+#form-message-success {
+  color: #28a745;
+}
+
+/* Form Styles */
+.formContainer {
+  width: 100%;
+}
+
+/* Form Input Styles */
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formControl {
+  width: 100%;
+  padding: 10px;
+  color: teal;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  font-size: 1rem;
+}
+
+.colMd5{
+  width: 500px;
+}
+
+/* Form Textarea Styles */
+.textareaControl {
+  width: 100%;
+  padding: 10px;
+  color: black;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1rem;
+}
+
+/* Submit Button Styles */
+.btnPrimary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Info Wrap Styles */
+.infoWrap {
+  background: rgb(0,120,120);
+  background: linear-gradient(90deg, rgba(0,120,120,1) 0%, rgba(0,185,185,1) 30%, rgba(0,185,185,1) 60%, rgba(0,120,120,1) 100%);
+  background-size: cover;
+  color: white;
+  border-radius: 5px 0px 0px 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.infoWrap h3{
+  margin-bottom: 25px;
+}
+
+.mtMd4{
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+/* Dbox Styles */
+.dbox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 19px;
+}
+
+/* Icon Styles */
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.text {
+  flex: 1;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .colMd7,
+  .colMd5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .infoWrap {
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .colMd7 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .colMd5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .infoWrap {
+    border-radius: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 575px) {
+  .infoWrap {
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .contactWrap {
+    height: auto;
+  }
+
+  .colMd6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .colMd12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .dbox {
+    margin-bottom: 15px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .btnPrimary {
+    padding: 8px 16px;
+  }
+}
+
+
+
+/*---------- CONTACT STRIP ----------*/
+
+
+.contactStripContainer {
+  background: rgb(218,87,0);
+  background: linear-gradient(90deg, rgba(218,87,0,1) 0%, rgba(255,132,50,1) 33%, rgba(255,172,117,1) 65%, rgba(218,87,0,1) 100%);
+  color: #fff;
+  padding: 20px;
+  margin-top: 70px;
+}
+
+.contactStripContent {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+.contactStripText {
+  text-align: left;
+
+}
+
+.contactStripText{
+  line-height: 25px;
+}
+
+.contactStripText h1 {
+  margin: 0;
+  line-height: 43px;
+
+}
+
+.contactButtons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 13px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+}
+
+.btn img {
+  width: 20px;
+  margin-left: 5px;
+}
+
+@media (min-width: 769px) {
+  .contactStripContent {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .contactButtons {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  
+}
+
+@media (max-width: 769px) {
+  .contactStripContainer{
+    margin-top: 100px;
+  }
+  
+}
+
+
+
+/*--------- CONTACT WHY CHOOSE US ------*/
+
+.ContactChoose {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  background: rgb(1,146,116);
+   background: linear-gradient(90deg, rgba(1,146,116,1) 0%, rgba(86,200,175,1) 40%, rgba(86,200,175,1) 51%, rgba(1,146,116,1) 100%);
+  color: white;
+}
+
+.ChooseHeading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ChoosePoints {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ChoosePoint {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 20px; 
+}
+
+.ChoosePoint h3 {
+  margin-left: 10px; 
+}
+
+
+@media (max-width: 768px) {
+  .ChoosePoint {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ChoosePoint h3 {
+    margin-left: 0; 
+    margin-top: 10px;
+  }
+}
+
+
+
+/*--------- CONTACT MAPS ------*/
+
+
+.mapsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+
+.mapHeading {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  .mapBox {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px; /* Make all maps take full width on mobile */
+  }
+
+  .map iframe {
+    width: 100%; /* Make all iframes take full width on mobile */
+    height: 200px; /* Adjust the height as needed */
+  }
+}
+
