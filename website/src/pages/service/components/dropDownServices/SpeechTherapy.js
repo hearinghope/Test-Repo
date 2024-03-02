@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import styles from './styles/service.module.css';
+import styles from '../../styles/service.module.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import WhatsAppButton from '../WhatsAppButton';
+import WhatsAppButton from '../../../WhatsAppButton';
 
 const HearingTest = () => {
     return(
@@ -15,7 +15,7 @@ const HearingTest = () => {
         <div className={styles.BlogContainer}>
 
         <div className={styles.BlogHeading}>
-          <h1 style={{color:'teal'}}>Hearing Test</h1>
+          <h1 style={{color:'teal'}}>Speech Therapy</h1>
         </div>
         <div className={styles.BlogImage}>
           <Image src='/Service/HearingTest.png' alt='Blog' height={200} width={400} style={{borderRadius:'2px'}}  />
