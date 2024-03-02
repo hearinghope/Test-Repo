@@ -44,6 +44,12 @@ const Home = () => {
           </div>
         ))}
       </div>
+      <div className={styles.ViewMoreContainer}>
+              <Link href="/blog" legacyBehavior>
+                <a>
+              <button className={styles.ViewMoreBtn}>View More</button>
+              </a>
+              </Link></div>
     </div>
   );
 };

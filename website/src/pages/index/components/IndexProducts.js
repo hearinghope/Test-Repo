@@ -10,7 +10,7 @@ const IndexProducts = () => {
 
   const certificationsData = useMemo(
     () => [
-      { id: 1, imageUrl: '/Products/BestSeller.png', description: 'Silk Rechargeable IX', href: '/products/components/ProductsPage/SilkRechargaebleIX' },
+      { id: 1, imageUrl: '/Products/BestSeller.png', description: 'Silk Rechargeable IX', href: '/products/components/ProductsPage/SilkRechargeableIX' },
       { id: 2, imageUrl: '/Products/SilkNxCouple.png', description: 'Silk Nx Couple', href: '/products/components/ProductsPage/SilkNxCouple' },
       { id: 3, imageUrl: '/Products/Motion CnG SP X.png', description: 'Motion CnG SP X', href: '/products/components/ProductsPage/MotionCnGSPX' },
       { id: 4, imageUrl: '/Products/Styletto RIC.png', description: 'Styletto RIC', href: '/products/components/ProductsPage/StylettoRIC' },

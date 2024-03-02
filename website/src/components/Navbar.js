@@ -73,10 +73,10 @@ const Navbar = () => {
           </span>
           {isMenuOpen && (
             <div className={styles.dropdownContent} style={{ display: 'block', position: 'absolute', backgroundColor: '#f9f9f9', boxShadow: '0px 8px 16px 0px rgba(0,0,0,0.2)', zIndex: 1, padding: '10px', borderRadius: '5px' }}>
-              <Link href="/services/service1" style={{ display: 'block', padding: '5px 0', fontWeight: '500' }}onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>All Services </Link>
-              <Link href="/services/service2" style={{ display: 'block', padding: '5px 0', fontWeight: '500' }}onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Test Services</Link>
-              <Link href="/services/service3" style={{ display: 'block', padding: '5px 0', fontWeight: '500' }}onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Speech Therapy Services</Link>
-              <Link href="/services/service3" style={{ display: 'block', padding: '5px 0', fontWeight: '500' }}onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Service - 3</Link>
+              <Link href="/service" style={{ display: 'block', padding: '5px 0', fontWeight: '500' }}onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>All Services </Link>
+              <Link href="./service/HearingTest" style={{ display: 'block', padding: '5px 0', fontWeight: '500' }}onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Test Services</Link>
+              <Link href="/service/SpeechTherapy" style={{ display: 'block', padding: '5px 0', fontWeight: '500' }}onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Speech Therapy Services</Link>
+              <Link href="/service/Service-3" style={{ display: 'block', padding: '5px 0', fontWeight: '500' }}onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Service - 3</Link>
             </div>
           )}
         </div>
@@ -90,16 +90,21 @@ const Navbar = () => {
           </span>
           {isProductsMenuOpen && (
             <div style={{ position: 'absolute', top: '100%', left: 0, background: 'white', padding: '10px', minWidth: '200px', borderRadius: '10px' }}>
+
+            <div style={{ position: 'relative', display: 'inline-block', marginRight: '10px' }}>
+                <span style={{ cursor: 'pointer', fontWeight: '500', color: 'black', display: 'block' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>
+                <Link href="/products"> All Hearing Aids </Link>
+                </span> </div>
               
-              <div style={{ position: 'relative', display: 'inline-block', marginRight: '10px' }} onMouseEnter={toggleSubProduct1Menu} onMouseLeave={toggleSubProduct1Menu}>
+              <div style={{ position: 'relative', display: 'inline-block', marginRight: '10px' , marginTop: '2px' }} onMouseEnter={toggleSubProduct1Menu} onMouseLeave={toggleSubProduct1Menu}>
                 <span style={{ cursor: 'pointer', fontWeight: '500', color: 'black', display: 'block' }}>
                   Hearing Aids Types &#9662;
                 </span>
                 {isSubProduct1MenuOpen && (
                   <div style={{ position: 'absolute', top: '0', left: '100%', background: 'white', padding: '10px', minWidth: '250px', borderRadius: '10px'  }}>
-                    <Link href="/products/subproduct1/item1" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>BTE Hearing Aids</Link>
-                    <Link href="/products/subproduct1/item2" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>CIC Hearing Aids</Link>
-                    <Link href="/products/subproduct1/item3" style={{ display: 'block', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Aids Types - 3</Link>
+                    <Link href="/products/BTEHearingAids" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>BTE Hearing Aids</Link>
+                    <Link href="/products/CICHearingAids" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>CIC Hearing Aids</Link>
+                    <Link href="/products/HearingAidsTypes-3" style={{ display: 'block', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Aids Types - 3</Link>
                   </div>
                 )}
               </div>
@@ -110,9 +115,9 @@ const Navbar = () => {
                 </span>
                 {isSubProduct2MenuOpen && (
                   <div style={{ position: 'absolute', top: '0', left: '100%', background: 'white', padding: '10px', minWidth: '150px', borderRadius: '10px' }}>
-                    <Link href="/products/subproduct2/item1" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Aids Batteries</Link>
-                    <Link href="/products/subproduct2/item2" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Aid Fitting</Link>
-                    <Link href="/products/subproduct2/item3" style={{ display: 'block', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Aid Accessories-3</Link>
+                    <Link href="/products/HearingAidsBatteries" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Aids Batteries</Link>
+                    <Link href="/products/HearingAidFitting" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Aid Fitting</Link>
+                    <Link href="/products/HearingAidAccessories-3" style={{ display: 'block', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Aid Accessories-3</Link>
                   </div>
                 )}
               </div>
@@ -122,9 +127,9 @@ const Navbar = () => {
                 </span>
                 {isSubProduct3MenuOpen && (
                   <div style={{ position: 'absolute', top: '0', left: '100%', background: 'white', padding: '10px', minWidth: '150px', borderRadius: '10px' }}>
-                    <Link href="/products/subproduct2/item1" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Model - 1</Link>
-                    <Link href="/products/subproduct2/item2" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Model - 2</Link>
-                    <Link href="/products/subproduct2/item3" style={{ display: 'block', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Model - 3</Link>
+                    <Link href="/products/Model-1" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Model - 1</Link>
+                    <Link href="/products/Model-2" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Model - 2</Link>
+                    <Link href="/products/Model-3" style={{ display: 'block', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Model - 3</Link>
                   </div>
                 )}
               </div>
