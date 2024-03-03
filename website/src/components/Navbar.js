@@ -5,19 +5,17 @@ import Image from 'next/image'; // Import the Image component
 import styles from './styles/navbar.module.css';
 
 const Navbar = () => {
-  const [isMenuOpen, setMenuOpen] = useState(false);
+ const [isMenuOpen, setMenuOpen] = useState(false);
   const [isNavbarVisible, setNavbarVisible] = useState(true);
-
-  const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
-  };
-
-  
-
   const [isProductsMenuOpen, setIsProductsMenuOpen] = useState(false);
   const [isSubProduct1MenuOpen, setIsSubProduct1MenuOpen] = useState(false);
   const [isSubProduct2MenuOpen, setIsSubProduct2MenuOpen] = useState(false);
   const [isSubProduct3MenuOpen, setIsSubProduct3MenuOpen] = useState(false);
+  const [isServicesMenuOpen, setIsServicesMenuOpen] = useState(false);
+ 
+ const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  }; 
 
   const toggleProductsMenu = () => {
     setIsProductsMenuOpen(!isProductsMenuOpen);
@@ -42,6 +40,9 @@ const Navbar = () => {
     setIsSubProduct1MenuOpen(false); // Close subproduct1 menu
   };
 
+  const toggleServicesMenu = () => {
+    setIsServicesMenuOpen(!isServicesMenuOpen);
+  };
 
   const handleNavbarVisibility = () => {
     setNavbarVisible(!isNavbarVisible);
@@ -67,78 +68,75 @@ const Navbar = () => {
         <Link href="/about" style={{ fontWeight: '500' }}>
           About
         </Link>
-        <div className={styles.dropdown} onMouseEnter={toggleMenu} onMouseLeave={toggleMenu}>
-          <span className={styles.dropbtn} style={{ cursor: 'pointer', fontWeight: 500 }}>
-            <Link href="/service" style={{ fontWeight: '500' }}>Services &#9662;</Link>
+        <div className={styles.dropdown}>
+          <span className={styles.dropbtn} style={{ cursor: 'pointer', fontWeight: '500' }} onClick={toggleServicesMenu} >
+           Services &#9662;
           </span>
-          {isMenuOpen && (
-            <div className={styles.dropdownContent} style={{ display: 'block', position: 'absolute', backgroundColor: '#f9f9f9', boxShadow: '0px 8px 16px 0px rgba(0,0,0,0.2)', zIndex: 1, padding: '10px', borderRadius: '5px' }}>
-              <Link href="/service" style={{ display: 'block', padding: '5px 0', fontWeight: '500' }}onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>All Services </Link>
-              <Link href="./service/components/dropDownServices/HearingTest" style={{ display: 'block', padding: '5px 0', fontWeight: '500' }}onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Test Services</Link>
-              <Link href="/service/components/dropDownServices/SpeechTherapy" style={{ display: 'block', padding: '5px 0', fontWeight: '500' }}onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Speech Therapy Services</Link>
-              <Link href="/service/components/dropDownServices/Service-3" style={{ display: 'block', padding: '5px 0', fontWeight: '500' }}onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Service - 3</Link>
+          {isServicesMenuOpen && (
+            <div className={styles.dropdownContent}>
+              <Link href="/service" className={styles.dropdownContentLinks}>All Services </Link>
+              <Link href="./service/components/dropDownServices/HearingTest" className={styles.dropdownContentLinks}>Hearing Test Services</Link>
+              <Link href="/service/components/dropDownServices/SpeechTherapy" className={styles.dropdownContentLinks}>Speech Therapy Services</Link>
+              <Link href="/service/components/dropDownServices/Service-3" className={styles.dropdownContentLinks}>Service - 3</Link>
             </div>
           )}
         </div>
         <Link href="/blog" style={{ fontWeight: '500' }}>
           Blog
         </Link>   
-        <div style={{ position: 'relative', borderRadius: '10px' }} onMouseEnter={toggleProductsMenu}>
-          <span style={{ cursor: 'pointer', marginRight: '20px', fontWeight: 'bold', color: 'black' }}>
-            <Link href="/products" style={{ fontWeight: '500' }}>Hearing Aids &#9662;
-            </Link>
+        <div className={styles.dropdown}>
+          <span className={styles.dropbtn} style={{ cursor: 'pointer', fontWeight: '500', color: 'black' }}onClick={toggleProductsMenu} onMouseEnter={toggleProductsMenu} 
+          >
+            Hearing Aids &#9662;
+            
           </span>
           {isProductsMenuOpen && (
-            <div style={{ position: 'absolute', top: '100%', left: 0, background: 'white', padding: '10px', minWidth: '200px', borderRadius: '10px' }}>
-
-            <div style={{ position: 'relative', display: 'inline-block', marginRight: '10px' }}>
+            <div className={styles.dropdownContent}>
+            <div className={styles.subDropdown}>
                 <span style={{ cursor: 'pointer', fontWeight: '500', color: 'black', display: 'block' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>
                 <Link href="/products"> All Hearing Aids </Link>
                 </span> </div>
               
-              <div style={{ position: 'relative', display: 'inline-block', marginRight: '10px' , marginTop: '2px' }} onMouseEnter={toggleSubProduct1Menu} onMouseLeave={toggleSubProduct1Menu}>
-                <span style={{ cursor: 'pointer', fontWeight: '500', color: 'black', display: 'block' }}>
+              <div className={styles.subDropdown} onClick={toggleSubProduct1Menu}>
+                <span >
                   Hearing Aids Types &#9662;
                 </span>
                 {isSubProduct1MenuOpen && (
-                  <div style={{ position: 'absolute', top: '0', left: '100%', background: 'white', padding: '10px', minWidth: '250px', borderRadius: '10px'  }}>
-                    <Link href="/products/components/NavBarProductPage/BTEHearingAids" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>BTE Hearing Aids</Link>
-                    <Link href="/products/components/NavBarProductPage/CICHearingAids" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>CIC Hearing Aids</Link>
-                    <Link href="/products/components/NavBarProductPage/HearingAidsTypes-3" style={{ display: 'block', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Aids Types - 3</Link>
+                  <div className={styles.subDropdownContent} >
+                    <Link href="/products/components/NavBarProductPage/BTEHearingAids" className={styles.subDropdownContentLinks}>BTE Hearing Aids</Link>
+                    <Link href="/products/components/NavBarProductPage/CICHearingAids" className={styles.subDropdownContentLinks}>CIC Hearing Aids</Link>
+                    <Link href="/products/components/NavBarProductPage/HearingAidsTypes-3" className={styles.subDropdownContentLinks} >Hearing Aids Types - 3</Link>
                   </div>
                 )}
               </div>
               
-              <div style={{ position: 'relative', display: 'inline-block' }} onMouseEnter={toggleSubProduct2Menu} onMouseLeave={toggleSubProduct2Menu}>
-                <span style={{ cursor: 'pointer', fontWeight: '500', color: 'black', display: 'block' , marginTop: '5px' }}>
+              <div className={styles.subDropdown} onClick={toggleSubProduct2Menu} >
+                <span >
                   Hearing Aids Accessories &#9662;
                 </span>
                 {isSubProduct2MenuOpen && (
-                  <div style={{ position: 'absolute', top: '0', left: '100%', background: 'white', padding: '10px', minWidth: '150px', borderRadius: '10px' }}>
-                    <Link href="/products/components/NavBarProductPage/HearingAidsBatteries" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Aids Batteries</Link>
-                    <Link href="/products/components/NavBarProductPage/HearingAidFitting" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Aid Fitting</Link>
-                    <Link href="/products/components/NavBarProductPage/HearingAidAccessories-3" style={{ display: 'block', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Hearing Aid Accessories-3</Link>
+                  <div className={styles.subDropdownContent}>
+                    <Link href="/products/components/NavBarProductPage/HearingAidsBatteries" className={styles.subDropdownContentLinks}>Hearing Aids Batteries</Link>
+                    <Link href="/products/components/NavBarProductPage/HearingAidFitting" className={styles.subDropdownContentLinks}>Hearing Aid Fitting</Link>
+                    <Link href="/products/components/NavBarProductPage/HearingAidAccessories-3" className={styles.subDropdownContentLinks}>Hearing Aid Accessories-3</Link>
                   </div>
                 )}
               </div>
-              <div style={{ position: 'relative', display: 'inline-block' }} onMouseEnter={toggleSubProduct3Menu} onMouseLeave={toggleSubProduct2Menu}>
-                <span style={{ cursor: 'pointer', fontWeight: '500', color: 'black', display: 'block' , marginTop: '5px' }}>
+              <div className={styles.subDropdown}  onClick={toggleSubProduct3Menu} >
+                <span >
                   Hearing Aids Models &#9662;
                 </span>
                 {isSubProduct3MenuOpen && (
-                  <div style={{ position: 'absolute', top: '0', left: '100%', background: 'white', padding: '10px', minWidth: '150px', borderRadius: '10px' }}>
-                    <Link href="/products/components/NavBarProductPage/Model-1" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Model - 1</Link>
-                    <Link href="/products/components/NavBarProductPage/Model-2" style={{ display: 'block', marginBottom: '5px', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Model - 2</Link>
-                    <Link href="/products/components/NavBarProductPage/Model-3" style={{ display: 'block', color: 'black', textDecoration: 'none', fontWeight: '500' }} onMouseEnter={(e) => e.target.style.color = 'orange'} onMouseLeave={(e) => e.target.style.color = 'black'}>Model - 3</Link>
+                  <div className={styles.subDropdownContent}>
+                    <Link href="/products/components/NavBarProductPage/Model-1" className={styles.subDropdownContentLinks}>Model - 1</Link>
+                    <Link href="/products/components/NavBarProductPage/Model-2" className={styles.subDropdownContentLinks}>Model - 2</Link>
+                    <Link href="/products/components/NavBarProductPage/Model-3" className={styles.subDropdownContentLinks}>Model - 3</Link>
                   </div>
                 )}
               </div>
             </div>
           )}
         </div>
-        {/* <Link href="/products" style={{ fontWeight: '500' }}>
-          Hearing Aids
-        </Link>  */}
         <Link href="/contact">
           
             <button type="button" className={styles.NavButton}>
