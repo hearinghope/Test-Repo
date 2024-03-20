@@ -3,15 +3,12 @@
 
 /* ---------- CONTACT HEADER ---------- */
 
-/* ContactForm.module.css */
 
-/* Section Styles */
 .contactSection {
   width: 100%;
   padding: 0px 0;
 }
 
-/* Container Styles */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -19,32 +16,27 @@
   top: -80px;
 }
 
-/* Centered Row Styles */
 .rowCenter {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Centered Column Styles */
 .colCenter {
   text-align: center;
 }
 
-/* Heading Styles */
 .heading {
   font-size: 2rem;
   margin-bottom: 30px;
   color: #333;
 }
 
-/* Wrapper Styles */
 .wrapper {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Contact Form Styles */
 .contactWrap {
   background-color: #fff;
   padding: 30px;
@@ -53,7 +45,6 @@
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Form Message Styles */
 #form-message-warning,
 #form-message-success {
   margin-bottom: 20px;
@@ -65,12 +56,10 @@
   color: #28a745;
 }
 
-/* Form Styles */
 .formContainer {
   width: 100%;
 }
 
-/* Form Input Styles */
 .formGroup {
   margin-bottom: 20px;
 }
@@ -89,7 +78,6 @@
   width: 500px;
 }
 
-/* Form Textarea Styles */
 .textareaControl {
   width: 100%;
   padding: 10px;
@@ -100,7 +88,6 @@
   font-size: 1rem;
 }
 
-/* Submit Button Styles */
 .btnPrimary {
   background-color: #007bff;
   color: #fff;
@@ -111,7 +98,6 @@
   font-size: 1rem;
 }
 
-/* Info Wrap Styles */
 .infoWrap {
   background: rgb(0,120,120);
   background: linear-gradient(90deg, rgba(0,120,120,1) 0%, rgba(0,185,185,1) 30%, rgba(0,185,185,1) 60%, rgba(0,120,120,1) 100%);
@@ -323,7 +309,7 @@
   text-align: center;
   padding: 40px;
   background: rgb(1,146,116);
-   background: linear-gradient(90deg, rgba(1,146,116,1) 0%, rgba(86,200,175,1) 40%, rgba(86,200,175,1) 51%, rgba(1,146,116,1) 100%);
+  background: linear-gradient(90deg, rgba(1,146,116,1) 0%, rgba(86,200,175,1) 40%, rgba(86,200,175,1) 51%, rgba(1,146,116,1) 100%);
   color: white;
 }
 

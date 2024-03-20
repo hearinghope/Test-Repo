@@ -60,8 +60,9 @@ const Navbar = () => {
         <Link href="/about" style={{ fontWeight: '500' }}>
           About
         </Link>
-        <Link href="/about" style={{ fontWeight: '500'}}>
+        <Link href="/onlineHearingTest" style={{ fontWeight: '500'}}>
           Online Hearing Test
+          <p style={{fontSize: '10px', color:'orange'}}>Quick Test!!</p>
         </Link>
         <div className={styles.dropdown}>
           <span

@@ -55,6 +55,12 @@
   }
 }
 
+@media  (max-height: 498px) {
+  .Testimonialcontainer{
+    margin-top: 400px;
+  }
+}
+
 /*--------- HOME CARDS -------------*/
 .HomeCards{
   width: 100%;
@@ -336,6 +342,18 @@
     width: 100%;
   }
 }
+@media (max-width: 1200px) {
+  .Testimonialcontainer{
+    margin-top: 200px;
+  }
+
+  .TestimonialcardContainer{
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
 @media (max-width: 768px) {
   .Testimonialcontainer{
     margin-top: 380px;
@@ -502,6 +520,12 @@
     }
     .carouselContainer{
       margin-top: 50px;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .carouselContainer{
+      margin-top: 200px;
     }
   }
   
@@ -697,6 +721,18 @@
     border-radius: 4px;
     cursor: pointer;
   }
+  .ViewMoreBtn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .ViewMoreContainer{
+    text-align: center;
+    margin-bottom: 40px;
+  }
 
   .BlogBtn:hover{
     background-color: rgba(1, 146, 117, 0.862);
@@ -708,4 +744,11 @@
       width: 100%;
     }
   }
-  
+  @media screen and (max-width: 1200px) {
+    .cardsContainer {
+      width: 100%;
+    }
+    .Blogcard{
+      width: 300px;
+    }
+  }

@@ -63,7 +63,7 @@ const IndexTestimonials = () => {
           <div key={review.id} className={styles.Testimonialcard}>
             <div className={styles.userInfo}>
               <Image
-                src={`/Home/${review.imge}`} // Assuming your images are in the public directory
+                src={`/Home/${review.imge}`}
                 alt={`${review.name}'s avatar`}
                 height={50}
                 width={50}

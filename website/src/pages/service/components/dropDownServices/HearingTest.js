@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import styles from './styles/service.module.css';
+import styles from '../../styles/service.module.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import WhatsAppButton from '../WhatsAppButton';
+import WhatsAppButton from '../../../WhatsAppButton';
 
 const HearingTest = () => {
     return(
