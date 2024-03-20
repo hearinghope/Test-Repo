@@ -4,6 +4,7 @@ import IndexHeader from './components/IndexHeader';
 import styles from './styles/index.module.css';
 import Footer from '@/components/Footer';
 import Head from 'next/head';
+import Swiper from './components/Swiper';
 import IndexCards from './components/IndexCards';
 import IndexAbout from './components/IndexAbout';
 import IndexProducts from './components/IndexProducts';
@@ -15,6 +16,7 @@ import IndexFAQ from './components/IndexFAQ';
 import IndexBlog from './components/IndexBlog';
 import WhatsAppButton from '../WhatsAppButton';
 import PopupForm from '@/components/PopupForm';
+import Sliding from './components/Swiper';
 const IndexPage = () => {
   // State to manage the visibility of the form
   const [isFormOpen, setIsFormOpen] = useState(true);
@@ -42,6 +44,7 @@ const IndexPage = () => {
       </Head>
       <Navbar />
       <IndexHeader />
+      <Sliding/>
       <IndexCards />
       <IndexAbout />
       <IndexProducts />

@@ -2,6 +2,17 @@
 
 /*--------- HOME CAROUSEL -------------*/
 
+.SliderContent{
+  display: flex ;
+  
+  object-fit: contain;
+}
+
+.mySwiper {
+  width: 100%;
+  height: auto;
+}
+
 .header{
   margin-top: 70px;
 }
@@ -10,19 +21,24 @@
   width: 100%;
 }
 
-@media (max-width:850px){
-  .header{
-    margin-top: 100px;
-  }
-  .header img {
-    width: 100%;
-    height: 100%;
+@media (min-width: 300px) and (max-width: 720px){
+  .SliderContent{
     object-fit: contain;
-    margin: 0;
-    display: block;
+    height: 15px;
   }
+
+#Image{
+  object-fit: cover;
+  height: 15px;
+
+  
+}
+.slidersection{
+  height: 15px;
 }
 
+};
+  
 
 /* styles/Carousel.module.css */
 
