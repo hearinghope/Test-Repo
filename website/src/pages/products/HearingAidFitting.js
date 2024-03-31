@@ -1,15 +1,15 @@
 import Navbar from '@/components/Navbar';
-import ProductsHeader from '../ProductsHeader';
-import styles from '../../styles/products.module.css';
+import ProductsHeader from './components/ProductsHeader';
+import styles from './styles/products.module.css';
 import Footer from '@/components/Footer';
 import Head from 'next/head';
-import WhatsAppButton from '../../../WhatsAppButton';
-import ProductsBest from '../ProductsBest';
-import ProductsHeader2 from '../ProductsHeader2';
-import ProductsBest2 from '../ProductsBest2';
+import WhatsAppButton from '../WhatsAppButton';
+import ProductsBest from './components/ProductsBest';
+import ProductsHeader2 from './components/ProductsHeader2';
+import ProductsBest2 from './components/ProductsBest2';
 
-import ProductsHeader3 from '../ProductsHeader3';
-import ProductsBest3 from '../ProductsBest3';
+import ProductsHeader3 from './components/ProductsHeader3';
+import ProductsBest3 from './components/ProductsBest3';
 
 
 const ProductsPage = () => {

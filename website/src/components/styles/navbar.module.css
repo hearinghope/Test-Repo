@@ -33,10 +33,11 @@
 }
 
 .subDropdown{
-  display: flex; /* or display: block; */
-  flex-direction: column;
+  display: block; /* or display: block; */
+  flex-direction: row;
   background-color: rgb(245, 245, 245);
   padding: 10px;
+  overflow-y: auto; 
   border-radius: 4px;
 }
 
@@ -52,7 +53,7 @@
 
 .subDropdownContentLinks{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   line-height: 30px;
 }
 
@@ -62,7 +63,7 @@
 
 .subDropdownContent {
   display: block; /* or display: block; */
-  flex-direction: column;
+  flex-direction: row;
 }
   
   .navLinks {

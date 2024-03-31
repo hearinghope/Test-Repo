@@ -1,5 +1,5 @@
 
-import ServicePage from './service/ServicePage';
+import ServicePage from './services/ServicePage';
 
 const About = () => {
   return <ServicePage />;
