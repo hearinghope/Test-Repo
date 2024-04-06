@@ -21,3 +21,16 @@
     display:flexbox;
     float: left;
 }
+
+@media  (max-width: 435px){
+
+.Heading{
+    text-align: center;
+    font-size:medium;
+}
+.ProductImage{
+    float:inline-start;
+    width: 100%;
+}
+    
+}

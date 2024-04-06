@@ -18,22 +18,39 @@ const Navbar = () => {
 
   const toggleProductsMenu = () => {
     setIsProductsMenuOpen(!isProductsMenuOpen);
+    setIsSubProduct1MenuOpen(false);
+    setIsSubProduct2MenuOpen(false);
+    setIsSubProduct3MenuOpen(false);
+    setIsServicesMenuOpen(false);
   };
 
   const toggleSubProduct1Menu = () => {
     setIsSubProduct1MenuOpen(!isSubProduct1MenuOpen);
+    setIsSubProduct2MenuOpen(false);
+    setIsSubProduct3MenuOpen(false);
+    setIsServicesMenuOpen(false);
   };
 
   const toggleSubProduct2Menu = () => {
     setIsSubProduct2MenuOpen(!isSubProduct2MenuOpen);
+    setIsSubProduct1MenuOpen(false);
+    setIsSubProduct3MenuOpen(false);
+    setIsServicesMenuOpen(false);
   };
 
   const toggleSubProduct3Menu = () => {
     setIsSubProduct3MenuOpen(!isSubProduct3MenuOpen);
+    setIsSubProduct1MenuOpen(false);
+    setIsSubProduct2MenuOpen(false);
+    setIsServicesMenuOpen(false);
   };
 
   const toggleServicesMenu = () => {
     setIsServicesMenuOpen(!isServicesMenuOpen);
+    setIsSubProduct1MenuOpen(false);
+    setIsSubProduct2MenuOpen(false);
+    setIsSubProduct3MenuOpen(false);
+    setIsProductsMenuOpen(false);
   };
 
   const handleNavbarVisibility = () => {
@@ -98,9 +115,17 @@ const Navbar = () => {
                 <span>Hearing Aids Types &#9662;</span>
                 {isSubProduct1MenuOpen && (
                   <div className={styles.subDropdownContent}>
-                    <Link href="/products/BTEHearingAids" className={styles.subDropdownContentLinks}>BTE Hearing Aids</Link>
+                    <Link href="/products/HearingAidsTypes/BTEHearingAids" className={styles.subDropdownContentLinks}>BTE Hearing Aids</Link>
                     <Link href="/products/CICHearingAids" className={styles.subDropdownContentLinks}>CIC Hearing Aids</Link>
-                    <Link href="/products/HearingAidsTypes-3" className={styles.subDropdownContentLinks}>Hearing Aids Types - 3</Link>
+                    <Link href="/products/ITCHearingAids" className={styles.subDropdownContentLinks}>ITC Hearing Aids</Link>
+                    <Link href="/products/IICHearingAids" className={styles.subDropdownContentLinks}>IIC Hearing Aids</Link>
+                    <Link href="/products/RICHearingAids" className={styles.subDropdownContentLinks}>RIC Hearing Aids</Link>
+                    <Link href="/products/RechargeableHearingAids" className={styles.subDropdownContentLinks}>Rechargeable Hearing Aids</Link>
+                    <Link href="/products/AnalogHearingAids" className={styles.subDropdownContentLinks}>Analog Hearing Aids</Link>
+                    <Link href="/products/WirelessHearingAids" className={styles.subDropdownContentLinks}>Wireless Hearing Aids</Link>
+                    <Link href="/products/BluetoothHearingAids" className={styles.subDropdownContentLinks}>Bluetooth Hearing Aids </Link>
+                    <Link href="/products/MicroincanalHearingAids" className={styles.subDropdownContentLinks}>Micro in Canal Hearing Aids </Link>
+                    <Link href="/products/PocketHearingAids" className={styles.subDropdownContentLinks}>Pocket Hearing Aids </Link>
                   </div>
                 )}
               </div>

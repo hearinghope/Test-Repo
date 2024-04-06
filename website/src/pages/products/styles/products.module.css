@@ -230,3 +230,40 @@
       margin-top: 60px;
     }
   }
+
+  .ProductPageContainer{
+    margin-top: 100px;
+}
+
+.Heading{
+    margin: 70px;
+    font-size: xx-large;
+    text-align: center;
+    color: #ff6600;
+}
+
+.ProductDescription{
+    display: block;
+    margin: 50px;
+    line-height: 1.7;
+    white-space: inherit;
+    
+}
+
+.ProductImage{
+    display:flexbox;
+    float: left;
+}
+
+@media  (max-width: 435px){
+
+.Heading{
+    text-align: center;
+    font-size:medium;
+}
+.ProductImage{
+    float:inline-start;
+    width: 100%;
+}
+    
+}

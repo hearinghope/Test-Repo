@@ -20,7 +20,7 @@ const IndexProducts = () => {
       { id: 8, imageUrl: '/Products/InsioCharge&GoAX.png', description: 'Kit Insio Charge & Go AX', href: '/products/components/ProductsPage/KitInsioCharge&GoAX' },
       { id: 9, imageUrl: '/Products/ActivePro.png', description: 'Kit Active Pro', href: '/products/components/ProductsPage/KitActivePro' },
       { id: 10, imageUrl: '/Products/BTEmotionCharge.png', description: 'Kit BTE Motion Charge & Go SP 1X', href: '/products/components/ProductsPage/KitBTEMotionCharge&GoSP1X' },
-      { id: 11, imageUrl: '/Products/Styletto.png', description: 'Styletto AX', href: '/products/components/ProductsPage/StylettoAx' },
+      { id: 11, imageUrl: '/Products/Styletto.png', description: 'Styletto AX', href: '/products/components/ProductsPage/StylettoAX' },
       { id: 12, imageUrl: '/Products/PureCharge&GoAX.png', description: 'Kit Pure Charge & Go AX', href: '/products/components/ProductsPage/KitPureCharge&GoAX' },
     ],
     []
