@@ -94,7 +94,9 @@ const Navbar = () => {
               <Link href="../services/AllServices" className={styles.dropdownContentLinks}>All Services</Link>
               <Link href="../services/HearingTest" className={styles.dropdownContentLinks}>Hearing Test Services</Link>
               <Link href="../services/SpeechTherapy" className={styles.dropdownContentLinks}>Speech Therapy Services</Link>
-              <Link href="../services/Service-3" className={styles.dropdownContentLinks}>Service - 3</Link>
+              <Link href="../services/Audiologist" className={styles.dropdownContentLinks}>Audiologist</Link>
+              <Link href="../services/HearingCare" className={styles.dropdownContentLinks}>Hearing Care</Link>
+              <Link href="../services/HearingAidCentre" className={styles.dropdownContentLinks}>Hearing Aid Centre</Link>
             </div>
           )}
         </div>
@@ -116,16 +118,16 @@ const Navbar = () => {
                 {isSubProduct1MenuOpen && (
                   <div className={styles.subDropdownContent}>
                     <Link href="/products/HearingAidsTypes/BTEHearingAids" className={styles.subDropdownContentLinks}>BTE Hearing Aids</Link>
-                    <Link href="/products/CICHearingAids" className={styles.subDropdownContentLinks}>CIC Hearing Aids</Link>
-                    <Link href="/products/ITCHearingAids" className={styles.subDropdownContentLinks}>ITC Hearing Aids</Link>
-                    <Link href="/products/IICHearingAids" className={styles.subDropdownContentLinks}>IIC Hearing Aids</Link>
-                    <Link href="/products/RICHearingAids" className={styles.subDropdownContentLinks}>RIC Hearing Aids</Link>
-                    <Link href="/products/RechargeableHearingAids" className={styles.subDropdownContentLinks}>Rechargeable Hearing Aids</Link>
-                    <Link href="/products/AnalogHearingAids" className={styles.subDropdownContentLinks}>Analog Hearing Aids</Link>
-                    <Link href="/products/WirelessHearingAids" className={styles.subDropdownContentLinks}>Wireless Hearing Aids</Link>
-                    <Link href="/products/BluetoothHearingAids" className={styles.subDropdownContentLinks}>Bluetooth Hearing Aids </Link>
-                    <Link href="/products/MicroincanalHearingAids" className={styles.subDropdownContentLinks}>Micro in Canal Hearing Aids </Link>
-                    <Link href="/products/PocketHearingAids" className={styles.subDropdownContentLinks}>Pocket Hearing Aids </Link>
+                    <Link href="/products/HearingAidsTypes/CICHearingAids" className={styles.subDropdownContentLinks}>CIC Hearing Aids</Link>
+                    <Link href="/products/HearingAidsTypes/ITCHearingAids" className={styles.subDropdownContentLinks}>ITC Hearing Aids</Link>
+                    <Link href="/products/HearingAidsTypes/IICHearingAids" className={styles.subDropdownContentLinks}>IIC Hearing Aids</Link>
+                    <Link href="/products/HearingAidsTypes/RICHearingAids" className={styles.subDropdownContentLinks}>RIC Hearing Aids</Link>
+                    <Link href="/products/HearingAidsTypes/RechargeableHearingAids" className={styles.subDropdownContentLinks}>Rechargeable Hearing Aids</Link>
+                    <Link href="/products/HearingAidsTypes/AnalogHearingAids" className={styles.subDropdownContentLinks}>Analog Hearing Aids</Link>
+                    <Link href="/products/HearingAidsTypes/WirelessHearingAids" className={styles.subDropdownContentLinks}>Wireless Hearing Aids</Link>
+                    <Link href="/products/HearingAidsTypes/BluetoothHearingAids" className={styles.subDropdownContentLinks}>Bluetooth Hearing Aids </Link>
+                    <Link href="/products/HearingAidsTypes/MicroincanalHearingAids" className={styles.subDropdownContentLinks}>Micro in Canal Hearing Aids </Link>
+                    <Link href="/products/HearingAidsTypes/PocketHearingAids" className={styles.subDropdownContentLinks}>Pocket Hearing Aids </Link>
                   </div>
                 )}
               </div>

@@ -521,3 +521,98 @@
   }
 
 }
+
+/*--------- Services FAQ -------------*/
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  font-family: "Sora", sans-serif;
+  max-width: 991px;
+  min-width: 320px;
+  margin: 50px auto;
+  padding: 0 50px;
+}
+
+.accordion h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #ff6600;
+  margin-bottom: 15px;
+}
+
+.accordionItem {
+  margin-top: 16px;
+  border: 1px solid #fcfcfc;
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.accordionItem .accordionItemTitle {
+  position: relative;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+  cursor: pointer;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 14px 20px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.accordionItem .accordionItemDesc {
+  display: none;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #444;
+  border-top: 1px dashed #ddd;
+  padding: 10px 20px 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 2s ease-in-out; /* Add transition property for smooth animation */
+}
+
+.accordionItem input[type="checkbox"] {
+  position: absolute;
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.accordionItem input[type="checkbox"]:checked ~ .accordionItemDesc {
+  display: block;
+  max-height: 1000px; /* Adjust to a sufficiently large value */
+}
+
+.accordionItem input[type="checkbox"]:checked ~ .accordionItemTitle .icon:after {
+  content: "-";
+  font-size: 20px;
+}
+
+.accordionItem input[type="checkbox"] ~ .accordionItemTitle .icon:after {
+  content: "+";
+  font-size: 20px;
+}
+
+.accordionItem:first-child {
+  margin-top: 0;
+}
+
+.accordionItem .icon {
+  margin-left: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .accordion {
+    padding: 0 16px;
+  }
+
+  .accordion h1 {
+    font-size: 22px;
+  }
+}
