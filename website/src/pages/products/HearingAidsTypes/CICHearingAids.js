@@ -19,12 +19,12 @@ const CICHearingAids = () => {
       <Image src='/Products/ActivePro.png' alt='KitActivePro' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
-      <p>
+      
         <br></br><br></br>
-      Dealing with hearing impairment can be challenging, but choosing the right hearing aid can transform your experience. At HearingHope.in, we specialize in providing **CIC (Completely in Canal) Hearing Aids**, a discreet and advanced solution that blends seamlessly into your everyday life. Our CIC Hearing Aids are designed not just to aid hearing, but to enhance it, ensuring that you don't just hear, but hear with clarity.<br></br> <br>
+      Dealing with hearing impairment can be challenging, but choosing the right hearing aid can transform your experience. At HearingHope.in, we specialize in providing **CIC (Completely in Canal) Hearing Aids**, a discreet and advanced solution that blends seamlessly into your everyday life. Our CIC Hearing Aids are designed not just to aid hearing, but to enhance it, ensuring that you don&apos;t just hear, but hear with clarity.<br></br> <br>
       </br>
 
-      We understand that each individual's hearing needs are unique. That's why our range of CIC Hearing Aids is custom-fitted and tailored to meet the specific requirements of your hearing profile. With state-of-the-art technology, our hearing aids are nearly invisible, comfortable, and incredibly effective. Whether you're in a bustling market or enjoying a quiet conversation at home, our Completely in Canal Hearing Aids are crafted to provide you with the best auditory experience.
+      We understand that each individual&apos;s hearing needs are unique. That&apos;s why our range of CIC Hearing Aids is custom-fitted and tailored to meet the specific requirements of your hearing profile. With state-of-the-art technology, our hearing aids are nearly invisible, comfortable, and incredibly effective. Whether you&apos;re in a bustling market or enjoying a quiet conversation at home, our Completely in Canal Hearing Aids are crafted to provide you with the best auditory experience.
 <br></br> <br></br> <br></br>
 
 <div className={styles.Subheading}>
@@ -47,7 +47,7 @@ In the world of hearing aids, CIC Hearing Aids stands out for its unique combina
 
 <b>4. Natural Ear Acoustics: </b> By fitting entirely inside your ear canal, CIC Hearing Aids use the natural acoustics of your ear to provide a more natural hearing experience. This design helps localise sound sources and better understand speech, even in noisy environments.
 <br></br>
-<b>5. Less Wind Noise:</b> Outdoor enthusiasts will appreciate that CIC Hearing Aids are less susceptible to wind noise due to their in-canal placement. This feature enhances the outdoor experience, whether you're golfing, biking, or simply taking a walk.<br></br>
+<b>5. Less Wind Noise:</b> Outdoor enthusiasts will appreciate that CIC Hearing Aids are less susceptible to wind noise due to their in-canal placement. This feature enhances the outdoor experience, whether you&apos;re golfing, biking, or simply taking a walk.<br></br>
 
 <b>6. Easy to Use with Phones and Headwear:</b> Thanks to their positioning deep in the ear canal, CIC Hearing Aids are generally more comfortable to use with telephones and headwear like hats or helmets, making them a convenient choice for active lifestyles.<br></br>
 <b>7. Ideal for Mild to Moderate Hearing Loss:</b> CIC Hearing Aids are especially effective for individuals with mild to moderate hearing loss, providing the necessary amplification without the bulkiness of larger devices.
@@ -77,7 +77,7 @@ At HearingHope.in, we believe that the key to effective hearing support lies in 
 Enhanced Comfort
 </h2>
 
-<b>1. Lightweight and Discreet:</b> The small size and custom fit of CIC Hearing Aids make them so comfortable that you might forget you're wearing them. Their lightweight nature ensures they don't exert pressure on your ears.
+<b>1. Lightweight and Discreet:</b> The small size and custom fit of CIC Hearing Aids make them so comfortable that you might forget you&apos;re wearing them. Their lightweight nature ensures they don&apos;t exert pressure on your ears.
 <br></br>
 <b>2. Natural Ear Feel: </b> With the hearing device nestled deep in your ear canal, it resonates with the natural acoustics of your ear, providing a more organic hearing experience.
 <br></br>
@@ -101,7 +101,7 @@ Enhanced Comfort
 <br>
 
 </br>
-<b>1. High-Definition Audio:</b>Our CIC Hearing Aids utilize advanced sound processing algorithms to deliver crisp, clear audio, ensuring you don't miss a beat in conversations.<br></br>
+<b>1. High-Definition Audio:</b>Our CIC Hearing Aids utilize advanced sound processing algorithms to deliver crisp, clear audio, ensuring you don&apos;t miss a beat in conversations.<br></br>
 
 <b>2. Background Noise Reduction:</b>Sophisticated noise reduction technology helps minimise background noise, making it easier to focus on what you want to hear, especially in crowded or noisy environments.
 
@@ -154,7 +154,7 @@ At HearingHope.in, we pride ourselves not just on our advanced CIC Hearing Aids,
 <b>2. Customized Hearing Solutions:</b> Based on your hearing profile and lifestyle, we recommend and customize CIC Hearing Aids that best suit your requirements.<br></br>
 
 <h2>Ongoing Support and Aftercare</h2>
-<b>1. Continuous Aftercare Services:</b> Our relationship with clients doesn't end at the purchase. We offer ongoing aftercare services including regular check-ups, maintenance, and any necessary adjustments to your CIC Hearing Aids.<br></br>
+<b>1. Continuous Aftercare Services:</b> Our relationship with clients doesn&apos;t end at the purchase. We offer ongoing aftercare services including regular check-ups, maintenance, and any necessary adjustments to your CIC Hearing Aids.<br></br>
 
 <b>2. Responsive Customer Service:</b> Have a question or concern? Our responsive customer service team is always ready to assist, ensuring a smooth and hassle-free experience.<br></br>
 
@@ -168,10 +168,10 @@ At HearingHope.in, we pride ourselves not just on our advanced CIC Hearing Aids,
 
 <b>2. Flexible Scheduling:</b> We understand the importance of convenience, which is why we offer flexible scheduling to accommodate your busy lifestyle.<br></br><br></br>
 
-At HearingHope.in, our expertise and support are pillars of our service. When you choose our CIC Hearing Aids, you're not just receiving a product; you're gaining a partner dedicated to enhancing and supporting your hearing journey every step of the way.
+At HearingHope.in, our expertise and support are pillars of our service. When you choose our CIC Hearing Aids, you&apos;re not just receiving a product; you&apos;re gaining a partner dedicated to enhancing and supporting your hearing journey every step of the way.
 
 
-      </p>
+      
       <CICFAQS></CICFAQS>
     </div>
     </div>

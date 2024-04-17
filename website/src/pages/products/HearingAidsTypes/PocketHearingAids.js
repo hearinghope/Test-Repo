@@ -19,12 +19,12 @@ const PocketHearingAid = () => {
       <Image src='/Products/ActivePro.png' alt='KitActivePro' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
-      <p>
-      Discover Unparalleled Freedom with Our Advanced Pocket Hearing Aids. Designed for your comfort and convenience, our pocket hearing aids offer a seamless hearing experience. At HearingHope, we understand the importance of clarity and ease in your daily communications. Whether you're at a family gathering, in a business meeting, or enjoying the outdoors, our pocket hearing aids are engineered to provide exceptional sound quality in every environment.<br></br><br></br>
+      
+      Discover Unparalleled Freedom with Our Advanced Pocket Hearing Aids. Designed for your comfort and convenience, our pocket hearing aids offer a seamless hearing experience. At HearingHope, we understand the importance of clarity and ease in your daily communications. Whether you&apos;re at a family gathering, in a business meeting, or enjoying the outdoors, our pocket hearing aids are engineered to provide exceptional sound quality in every environment.<br></br><br></br>
 
 <h2>Why Choose HearingHope for Your Pocket Hearing Aid</h2><br></br>
 
-Experience the HearingHope Difference with Our Pocket Hearing Aids. When it comes to enhancing your hearing, choosing the right pocket hearing aid is crucial. At HearingHope, we are committed to providing not just a product, but a complete hearing solution tailored to your needs. Here's why HearingHope stands out as your go-to choice for pocket hearing aids:<br></br>
+Experience the HearingHope Difference with Our Pocket Hearing Aids. When it comes to enhancing your hearing, choosing the right pocket hearing aid is crucial. At HearingHope, we are committed to providing not just a product, but a complete hearing solution tailored to your needs. Here&apos;s why HearingHope stands out as your go-to choice for pocket hearing aids:<br></br>
 
 <b>1. Expert Guidance:</b> Our team of experienced audiologists and hearing specialists ensures that you receive expert advice to select the perfect pocket hearing aid suited to your lifestyle and hearing requirements.<br></br>
 
@@ -36,13 +36,13 @@ Experience the HearingHope Difference with Our Pocket Hearing Aids. When it come
 
 <b>5. Affordable Options:</b> We understand the importance of budget-friendly solutions. Our range of pocket hearing aids is priced to cater to various financial considerations without compromising on quality.<br></br>
 
-<b>6. Post-Purchase Support:</b> Our relationship with customers doesn’t end at purchase. We offer excellent after-sales service, including maintenance and repairs, to ensure your pocket hearing aid continues to perform at its best.<br></br>
+<b>6. Post-Purchase Support:</b> Our relationship with customers doesn&apos;t end at purchase. We offer excellent after-sales service, including maintenance and repairs, to ensure your pocket hearing aid continues to perform at its best.<br></br>
 
 Choose HearingHope for a Pocket Hearing Aid That Truly Makes a Difference in Your Life. Our goal is to empower you with the freedom of better hearing through a device that fits seamlessly into your life.
 
 <h2>How Pocket Hearing Aids Work</h2>
 
-Unveiling the Technology Behind Our Pocket Hearing Aids. Understanding the functionality of pocket hearing aids is key to appreciating their benefits. At HearingHope, we ensure that our pocket hearing aids are not only compact and discreet but also packed with advanced features that enhance your hearing experience. Here's a closer look at how these innovative devices work:<br></br>
+Unveiling the Technology Behind Our Pocket Hearing Aids. Understanding the functionality of pocket hearing aids is key to appreciating their benefits. At HearingHope, we ensure that our pocket hearing aids are not only compact and discreet but also packed with advanced features that enhance your hearing experience. Here&apos;s a closer look at how these innovative devices work:<br></br>
 
 <b>1. Microphone and Amplifier System:</b> Each pocket hearing aid is equipped with a high-quality microphone that captures sound from the environment. This sound is then amplified through a state-of-the-art system, ensuring that you receive clear and enhanced audio.<br></br>
 
@@ -56,15 +56,15 @@ Unveiling the Technology Behind Our Pocket Hearing Aids. Understanding the funct
 
 <b>6. Discreet Design:</b> Despite their powerful performance, pocket hearing aids are designed to be small and discreet, easily fitting into your pocket or clipped onto your clothing, offering both convenience and confidence in social settings.<br></br>
 
-Discover the Advanced Functionality of HearingHope’s Pocket Hearing Aids. With a focus on innovative technology and user-friendly features, our pocket hearing aids are designed to significantly improve your daily auditory experience without the bulk or visibility of traditional devices.
+Discover the Advanced Functionality of HearingHope&apos;s Pocket Hearing Aids. With a focus on innovative technology and user-friendly features, our pocket hearing aids are designed to significantly improve your daily auditory experience without the bulk or visibility of traditional devices.
 
 <h2>How to Select the Right Pocket Hearing Aid</h2>
 
-Finding Your Perfect Match in a Pocket Hearing Aid with HearingHope. The journey to improved hearing is unique for everyone, and selecting the right pocket hearing aid is a vital step. At HearingHope, we're here to guide you through this process, ensuring you find a pocket hearing aid that perfectly suits your needs. Here are key factors to consider:<br></br>
+Finding Your Perfect Match in a Pocket Hearing Aid with HearingHope. The journey to improved hearing is unique for everyone, and selecting the right pocket hearing aid is a vital step. At HearingHope, we&apos;re here to guide you through this process, ensuring you find a pocket hearing aid that perfectly suits your needs. Here are key factors to consider:<br></br>
 
 <b>1. Understand Your Hearing Needs:</b> Start by getting a professional hearing assessment. Understanding the extent and type of your hearing loss is crucial in selecting the most suitable pocket hearing aid.<br></br>
 
-<b>2. Lifestyle Considerations:</b> Your daily activities and lifestyle play a significant role. Whether you're frequently in noisy environments, enjoy outdoor activities, or need something for quieter settings, we have a pocket hearing aid to match every lifestyle.<br></br>
+<b>2. Lifestyle Considerations:</b> Your daily activities and lifestyle play a significant role. Whether you&apos;re frequently in noisy environments, enjoy outdoor activities, or need something for quieter settings, we have a pocket hearing aid to match every lifestyle.<br></br>
 
 <b>3. Comfort and Size:</b> Pocket hearing aids are praised for their comfort and discreteness. Try different models to find one that feels right for you, both in size and how it fits in your life.<br></br>
 
@@ -78,9 +78,9 @@ Let HearingHope Be Your Guide in Selecting the Ideal Pocket Hearing Aid. Our exp
 
 <h2>Benefits of Pocket Hearing Aids</h2>
 
-Enhance Your Hearing Experience with a Pocket Hearing Aid from HearingHope. Pocket hearing aids are not just a means to improve hearing; they offer a range of benefits to enhance the overall quality of life. Here’s why a pocket hearing aid could be the perfect choice for you:<br></br>
+Enhance Your Hearing Experience with a Pocket Hearing Aid from HearingHope. Pocket hearing aids are not just a means to improve hearing; they offer a range of benefits to enhance the overall quality of life. Here&apos;s why a pocket hearing aid could be the perfect choice for you:<br></br>
 
-<b>1. Portability and Convenience:</b> The compact size of pocket hearing aids makes them incredibly portable and convenient. Whether you're on the move, traveling, or simply going about your day, these devices can easily fit into your lifestyle without any hassle.<br></br>
+<b>1. Portability and Convenience:</b> The compact size of pocket hearing aids makes them incredibly portable and convenient. Whether you&apos;re on the move, traveling, or simply going about your day, these devices can easily fit into your lifestyle without any hassle.<br></br>
 
 <b>2. Ease of Use:</b> Designed with user-friendliness in mind, pocket hearing aids are straightforward to operate, making them ideal for individuals of all ages, especially those who may find smaller devices challenging to handle.<br></br>
 
@@ -90,13 +90,13 @@ Enhance Your Hearing Experience with a Pocket Hearing Aid from HearingHope. Pock
 
 <b>5. Durability and Reliability:</b> Built to last, pocket hearing aids are known for their durability and reliability, ensuring you have a dependable hearing solution that stands the test of time.<br></br>
 
-<b>6. Flexible for Various Settings:</b> With adjustable settings, pocket hearing aids can be optimized for different environments, whether you're in a quiet room or a noisy outdoor space.<br></br>
+<b>6. Flexible for Various Settings:</b> With adjustable settings, pocket hearing aids can be optimized for different environments, whether you&apos;re in a quiet room or a noisy outdoor space.<br></br>
 
 <b>7. Enhanced Comfort:</b> Many users find pocket hearing aids to be comfortable to wear for extended periods, an important consideration for daily use.<br></br><br></br>
 
-Discover the Advantages of a Pocket Hearing Aid at HearingHope. We’re dedicated to providing hearing aids that not only improve hearing but also offer convenience, comfort, and a better quality of life.
+Discover the Advantages of a Pocket Hearing Aid at HearingHope. We&apos;re dedicated to providing hearing aids that not only improve hearing but also offer convenience, comfort, and a better quality of life.
 
-      </p>
+      
       <PocketFAQS></PocketFAQS>
     </div>
     </div>

@@ -22,7 +22,7 @@ const TestQuestions = () => {
       options: ['I have a lot of trouble', 'I have a little trouble', 'Good', 'Excellent'],
     },
     {
-      question: 'In converstaion in a quiet environment, do people seem to mumble?',
+      question: 'In conversation in a quiet environment, do people seem to mumble?',
       audioSrc: '/Audio/PreTest2.mp3',
       options: ['Always', 'Often', 'Occasionally', 'Never'],
     },
@@ -97,7 +97,7 @@ const TestQuestions = () => {
       audioElement.pause();
     }
     setAudioElement(null);
-  }, [currentQuestionIndex]);
+  }, [currentQuestionIndex, audioElement]);
 
   useEffect(() => {
     if (preTestOver && currentQuestionIndex === preTestQuestions.length - 1) {
@@ -105,7 +105,7 @@ const TestQuestions = () => {
     } else {
       setNextButtonText('Next');
     }
-  }, [preTestOver, currentQuestionIndex]);
+  }, [preTestOver, currentQuestionIndex, preTestQuestions.length]);
 
   const handleOptionClick = (option) => {
     const newSelectedOptions = [...selectedOptions];

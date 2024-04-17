@@ -22,11 +22,11 @@ const HearingAidCentre = () => {
           <Image src='/Service/HearingTest.png' alt='Blog' height={200} width={400} style={{borderRadius:'2px'}}  />
         </div>
         <div className={styles.BlogDescription}>
-          <p>Welcome to Hearing Hope, your premier hearing aid centre in Delhi, where we blend advanced technology with personalised care to bring you the best hearing solutions. At Hearing Hope, we understand the impact that hearing loss can have on your daily life, and we are dedicated to helping you regain not just your hearing, but also the fullness of your life's experiences.<br></br>
-Nestled in the heart of Delhi, our centre is renowned for providing top-notch hearing aids and exceptional auditory care, tailored to meet the unique needs of each individual. Whether you're experiencing hearing difficulties, seeking advice on hearing wellness, or looking for the latest in hearing aid technology, our expert team is here to guide you every step of the way.<br></br>
+          Welcome to Hearing Hope, your premier hearing aid centre in Delhi, where we blend advanced technology with personalised care to bring you the best hearing solutions. At Hearing Hope, we understand the impact that hearing loss can have on your daily life, and we are dedicated to helping you regain not just your hearing, but also the fullness of your life&apos;s experiences.<br></br>
+Nestled in the heart of Delhi, our centre is renowned for providing top-notch hearing aids and exceptional auditory care, tailored to meet the unique needs of each individual. Whether you&apos;re experiencing hearing difficulties, seeking advice on hearing wellness, or looking for the latest in hearing aid technology, our expert team is here to guide you every step of the way.<br></br>
 <h3>Our Services</h3>
 
-At Hearing Hope, a leading hearing aid centre in Delhi, we offer a comprehensive suite of services to cater to all your auditory needs. Our commitment to excellence ensures that each client receives personalised and effective hearing solutions. Here’s a detailed look at the services we provide:<br></br>
+At Hearing Hope, a leading hearing aid centre in Delhi, we offer a comprehensive suite of services to cater to all your auditory needs. Our commitment to excellence ensures that each client receives personalised and effective hearing solutions. Here&apos;s a detailed look at the services we provide:<br></br>
 
 <h3>1. Hearing Aid Selection and Fitting</h3>
 <li><ul><b>Personalised Assessment:</b> Every ear is unique, and so is every hearing challenge. Our audiologists conduct thorough assessments to understand your specific needs.</ul></li>
@@ -47,7 +47,7 @@ At Hearing Hope, a leading hearing aid centre in Delhi, we offer a comprehensive
 <h3>5. Educational Resources and Support</h3>
 <li><ul><b>Informative Sessions:</b> We believe in empowering our clients with knowledge. Our centre regularly conducts educational sessions on hearing health and the effective use of hearing aids.</ul></li>
 
-By choosing Hearing Hope, you’re not just selecting a service; you're embracing a partnership in your journey towards better hearing. Our dedicated team at this esteemed hearing aid centre in Delhi is committed to providing you with not only the best products but also continuous support and care, ensuring a seamless and satisfying experience.
+By choosing Hearing Hope, you&apos;re not just selecting a service; you&apos;re embracing a partnership in your journey towards better hearing. Our dedicated team at this esteemed hearing aid centre in Delhi is committed to providing you with not only the best products but also continuous support and care, ensuring a seamless and satisfying experience.
 
 <h2>Why Choose a Hearing Aid</h2>
 
@@ -76,7 +76,7 @@ Choosing a hearing aid from Hearing Hope not only enhances your auditory experie
 
 <h2>Our Process</h2>
 
-At Hearing Hope, the esteemed hearing aid centre in Delhi, we believe in a client-centric approach, ensuring that every step of your journey to better hearing is smooth, comfortable, and effective. Our process is tailored to meet individual needs and preferences, offering a seamless experience from start to finish. Here’s how we do it:
+At Hearing Hope, the esteemed hearing aid centre in Delhi, we believe in a client-centric approach, ensuring that every step of your journey to better hearing is smooth, comfortable, and effective. Our process is tailored to meet individual needs and preferences, offering a seamless experience from start to finish. Here&apos;s how we do it:
 
 <h3>Step 1: Initial Consultation</h3>
 <li><ul><b>Personal Meeting:</b> Your journey begins with a personal consultation at our centre in Delhi. We discuss your hearing concerns and lifestyle requirements.</ul></li>
@@ -105,7 +105,7 @@ At Hearing Hope, the esteemed hearing aid centre in Delhi, we believe in a clien
 By choosing Hearing Hope, you are not just getting a hearing aid; you are embarking on a journey towards better hearing with a team that cares deeply about your auditory health. Our streamlined process at this leading hearing aid centre in Delhi ensures that your path to improved hearing is smooth, effective, and satisfying.<br></br>
 
 Certainly! Here are five FAQs that could be relevant and helpful for users visiting the website of Hearing Hope, a hearing aid centre in Delhi:
-</p>
+
 <HearingAidCentreFAQS></HearingAidCentreFAQS>
       </div>
      
