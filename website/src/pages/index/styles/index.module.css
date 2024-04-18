@@ -280,7 +280,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 150vh;
 }
 
 .TestimonialcardContainer {
@@ -531,7 +531,7 @@
   
   @media (max-width: 1300px) {
     .carouselContainer{
-      margin-top: 200px;
+      margin-top: -30px;
     }
   }
   
@@ -678,7 +678,7 @@
     justify-content: center;
     gap: 20px;
     margin-bottom: 30px;
-    padding: 20px;
+    /* padding: 20px; */
   }
 
   .Blogcard {
