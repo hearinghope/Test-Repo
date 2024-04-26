@@ -3,7 +3,7 @@ import styles from './styles/service.module.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '../WhatsAppButton';
-import AudiologistFAQS from './components/ServicesFAQS/audiologistFAQS';
+import AudiologistFAQS from './components/ServicesFAQS/AudiologistFAQS';
 
 const HearingTest = () => {
     return(
