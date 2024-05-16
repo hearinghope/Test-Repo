@@ -145,9 +145,27 @@ const Navbar = () => {
                 <span>Hearing Aids Models &#9662;</span>
                 {isSubProduct3MenuOpen && (
                   <div className={styles.subDropdownContent}>
-                    <Link href="/products/Model-1" className={styles.subDropdownContentLinks}>Model - 1</Link>
-                    <Link href="/products/Model-2" className={styles.subDropdownContentLinks}>Model - 2</Link>
-                    <Link href="/products/Model-3" className={styles.subDropdownContentLinks}>Model - 3</Link>
+                    <Link href="/products/HearingAidModels/BTEFastP" className={styles.subDropdownContentLinks}>Signia BTE Fast P</Link>
+                    <Link href="/products/HearingAidModels/BTEFunP" className={styles.subDropdownContentLinks}>Signia BTE Fun P</Link>
+                    <Link href="/products/HearingAidModels/BTEFunSP" className={styles.subDropdownContentLinks}>Signia BTE Fun SP</Link>
+                    <Link href="/products/HearingAidModels/Digital8Channel" className={styles.subDropdownContentLinks}>Signia Digital - 8 channel</Link>
+                    <Link href="/products/HearingAidModels/BTEPromptP" className={styles.subDropdownContentLinks}>Signia BTE prompt P</Link>
+                    <Link href="/products/HearingAidModels/BTEPromptSP" className={styles.subDropdownContentLinks}>Signia BTE Prompt SP</Link>
+                    <Link href="/products/HearingAidModels/CICPromptCustom" className={styles.subDropdownContentLinks}>Signia CIC prompt Custom</Link>
+                    <Link href="/products/HearingAidModels/Digital12Channel" className={styles.subDropdownContentLinks}>Signia Digital - 12 channel</Link>
+                    <Link href="/products/HearingAidModels/BTEIntuis40PSP" className={styles.subDropdownContentLinks}>Signia BTE INTUIS 4.0 P/ SP</Link>
+                    <Link href="/products/HearingAidModels/Digital16Channel" className={styles.subDropdownContentLinks}>Signia Digital - 16 channel</Link>
+                    <Link href="/products/HearingAidModels/BTEIntuis41PSP" className={styles.subDropdownContentLinks}>Signia BTE INTUIS 4.1 P/SP</Link>
+                    <Link href="/products/HearingAidModels/CICInsio1PXCustom" className={styles.subDropdownContentLinks}>Signia Cic Insio 1Px Custom</Link>
+                    <Link href="/products/HearingAidModels/RIC16Channel" className={styles.subDropdownContentLinks}>Signia RIC - 16 channel</Link>
+                    <Link href="/products/HearingAidModels/RICPure1PX" className={styles.subDropdownContentLinks}>Signia RIC Pure 1Px</Link>
+                    <Link href="/products/HearingAidModels/RICPure1X" className={styles.subDropdownContentLinks}>Signia RIC pure 1X</Link>
+                    <Link href="/products/HearingAidModels/RICPure1AX" className={styles.subDropdownContentLinks}>Signia Ric pure 1AX</Link>
+                    <Link href="/products/HearingAidModels/KITStyletto1AX16Channel" className={styles.subDropdownContentLinks}>Signia KIT Styletto 1AX- 16 channel</Link>
+                    <Link href="/products/HearingAidModels/PureCharge&Go1AX16Channel" className={styles.subDropdownContentLinks}>Pure charge & Go 1AX- 16 channel</Link>
+                    <Link href="/products/HearingAidModels/Silk1X16Channel" className={styles.subDropdownContentLinks}>Signia Silk 1X- 16 channel</Link>
+                    <Link href="/products/HearingAidModels/KitActive16Channel" className={styles.subDropdownContentLinks}>Signia Kit Active  - 16 channel</Link>
+                   
                   </div>
                 )}
               </div>
