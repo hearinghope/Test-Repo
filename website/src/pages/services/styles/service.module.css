@@ -441,19 +441,22 @@
 }
 
 .BlogDescription p{
-  line-height: 30px;
+  line-height: 20px;
   font-size: 17px;
   text-align: start;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .BlogDescription ul{
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .BlogDescription ul li{
-  color: #ff6600;
-  line-height: 35px;
-  font-size: 19px;
+  color: #0b0b0b;
+  line-height: 20px;
+  font-size: 17px;
 }
 
 .AboutDescriptionContainer2{

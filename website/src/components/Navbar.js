@@ -87,11 +87,12 @@ const Navbar = () => {
             style={{ cursor: 'pointer', fontWeight: 500 }}
             onClick={toggleServicesMenu}
           >
+            <Link href="/services">
             Services &#9662;
+            </Link>
           </span>
           {isServicesMenuOpen && (
             <div className={styles.dropdownContent}>
-              <Link href="../../services/AllServices" className={styles.dropdownContentLinks}>All Services</Link>
               <Link href="../../services/HearingTest" className={styles.dropdownContentLinks}>Hearing Test Services</Link>
               <Link href="../../services/SpeechTherapy" className={styles.dropdownContentLinks}>Speech Therapy Services</Link>
               {/* <Link href="../../services/Audiologist" className={styles.dropdownContentLinks}>Audiologist</Link> */}
