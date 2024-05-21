@@ -19,7 +19,7 @@ const SpeechTherapy = () => {
           <h1 style={{color:'teal'}}>Speech Therapy</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Service/HearingTest.png' alt='Blog' height={200} width={400} style={{borderRadius:'2px'}}  />
+          <Image src='/Service/OurService.jpg' alt='Blog' height={200} width={400} style={{borderRadius:'2px'}}  />
         </div>
         <div className={styles.BlogDescription}>
           Are you seeking exceptional speech therapy services in Delhi? Look no further! At Hearing Hope, we specialize in providing comprehensive and personalized speech therapy services to individuals of all ages. Our dedicated team of experts is committed to enhancing communication abilities and improving the quality of life for our clients in the Delhi area.<br></br><br></br>

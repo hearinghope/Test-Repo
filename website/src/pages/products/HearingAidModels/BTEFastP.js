@@ -16,15 +16,15 @@ const BTEFastP = () => {
       <h1 >BTE Fast P</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/ActivePro.png' alt='KitActivePro' width={500} height={400} /> 
+      <Image src='/Products/SigniaBTEFastP.png' alt='BTEFastP' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       
-    Discover unparalleled clarity and comfort with the Signia BTE Fast P, a state-of-the-art hearing aid designed to revolutionize your auditory experience. Whether you're struggling to hear in noisy environments or seeking a reliable daily hearing solution, the Signia BTE Fast P is engineered to enhance sound quality and provide effortless hearing.<br></br> <br></br>
+    Discover unparalleled clarity and comfort with the Signia BTE Fast P, a state-of-the-art hearing aid designed to revolutionize your auditory experience. Whether you&apos;re struggling to hear in noisy environments or seeking a reliable daily hearing solution, the Signia BTE Fast P is engineered to enhance sound quality and provide effortless hearing.<br></br> <br></br>
 
 Our advanced hearing aid offers a blend of powerful technology and user-friendly features, making it the perfect choice for individuals with hearing impairment. With Signia BTE Fast P, experience sound as it was meant to be heard—crisp, clear, and richly detailed. Read on to explore the innovative features, benefits, and user testimonials that make this product a leader in its class.<br></br><br></br>
 
-Whether you're a first-time user or looking to upgrade your current device, the Signia BTE Fast P stands out with its superior sound processing capabilities and comfortable design, tailored to fit seamlessly into your daily life.<br></br><br></br>
+Whether you&apos;re a first-time user or looking to upgrade your current device, the Signia BTE Fast P stands out with its superior sound processing capabilities and comfortable design, tailored to fit seamlessly into your daily life.<br></br><br></br>
 <br></br>
 <h1>Features and Benefits of Signia BTE Fast P</h1>
 
@@ -51,7 +51,7 @@ These features collectively make the Signia BTE Fast P a powerful solution for a
 <b>Device Type:</b> Behind-The-Ear (BTE) hearing aid, designed for maximum compatibility and comfort.<br></br>
 
 <h2>Performance Features:</h2>
-<li><ul><b>Channels:</b> Utilizes multiple channels for precise sound modulation and customization to user’s hearing loss profile.</ul></li>
+<li><ul><b>Channels:</b> Utilizes multiple channels for precise sound modulation and customization to user&apos;s hearing loss profile.</ul></li>
 <li><ul><b>Programs:</b> Equipped with various listening programs that can be easily switched to adapt to different sound environments.</ul></li>
 
 <h2>Physical Specifications:</h2>
@@ -74,7 +74,7 @@ These technical specifications highlight the innovative design and advanced tech
 
 <h1>How the Signia BTE Fast P Works</h1>
 
-The Signia BTE Fast P hearing aid operates using a combination of advanced auditory technology and intuitive design to enhance hearing capabilities effectively. Here’s a detailed look at its functionality:<br></br>
+The Signia BTE Fast P hearing aid operates using a combination of advanced auditory technology and intuitive design to enhance hearing capabilities effectively. Here&apos;s a detailed look at its functionality:<br></br>
 
 <h2>Sound Capture and Processing:</h2>
 <li><ul><b>Microphones:</b> Integrated microphones pick up sounds from the environment, capturing both speech and ambient noise.</ul></li>
@@ -82,7 +82,7 @@ The Signia BTE Fast P hearing aid operates using a combination of advanced audit
 
 <h2>User Interaction:</h2>
 <li><ul><b>Program Selection:</b> Users can switch between different preset programs tailored for specific listening environments (e.g., quiet settings, noisy outdoor areas, conversations in crowds).</ul></li>
-<li><ul><b>Volume Control:</b> Simple controls allow for easy adjustments to volume based on the user's needs at any moment.</ul></li>
+<li><ul><b>Volume Control:</b> Simple controls allow for easy adjustments to volume based on the user&apos;s needs at any moment.</ul></li>
 
 <h2>Connectivity and Output:</h2>
 <li><ul><b>Bluetooth Streaming:</b> The hearing aid can connect to other devices via Bluetooth, allowing users to stream audio directly into their hearing aids, which is especially useful for phone calls and media consumption.</ul></li>

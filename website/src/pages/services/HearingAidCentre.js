@@ -19,7 +19,7 @@ const HearingAidCentre = () => {
           <h1 style={{color:'teal'}}>Hearing Aid Centre</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Service/HearingTest.png' alt='Blog' height={200} width={400} style={{borderRadius:'2px'}}  />
+          <Image src='/Service/OfficeFrontPic.png' alt='Blog' height={200} width={400} style={{borderRadius:'2px'}}  />
         </div>
         <div className={styles.BlogDescription}>
           Welcome to Hearing Hope, your premier hearing aid centre in Delhi, where we blend advanced technology with personalised care to bring you the best hearing solutions. At Hearing Hope, we understand the impact that hearing loss can have on your daily life, and we are dedicated to helping you regain not just your hearing, but also the fullness of your life&apos;s experiences.<br></br>

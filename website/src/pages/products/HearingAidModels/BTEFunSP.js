@@ -16,13 +16,13 @@ const BTEFunP = () => {
       <h1 >BTE Fun SP</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/ActivePro.png' alt='KitActivePro' width={500} height={400} /> 
+      <Image src='/Products/BTEFunSP.png' alt='BTEFunSP' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>
-    Are you seeking an affordable, high-quality hearing solution? Discover the Signia BTE Fun SP, a hearing aid designed to combine functionality with ease of use, catering to a broad range of hearing needs. This model stands out for its advanced features tailored to enhance daily auditory experiences, ensuring clarity and comfort. Whether you're engaging in conversation, enjoying your favorite shows, or attending social gatherings, the Signia BTE Fun SP provides reliable hearing support.<br></br><br></br>
+    Are you seeking an affordable, high-quality hearing solution? Discover the Signia BTE Fun SP, a hearing aid designed to combine functionality with ease of use, catering to a broad range of hearing needs. This model stands out for its advanced features tailored to enhance daily auditory experiences, ensuring clarity and comfort. Whether you&apos;re engaging in conversation, enjoying your favorite shows, or attending social gatherings, the Signia BTE Fun SP provides reliable hearing support.<br></br><br></br>
 
-As you explore our detailed guide, you'll learn about the innovative features and user-centric benefits of the Signia BTE Fun SP. We aim to equip you with all the information needed to make an informed decision on improving your hearing health. Read on to understand more about its specifications, user reviews, pricing details, and how it can transform your auditory experience with its superior technology and design.<br></br>
+As you explore our detailed guide, you&apos;ll learn about the innovative features and user-centric benefits of the Signia BTE Fun SP. We aim to equip you with all the information needed to make an informed decision on improving your hearing health. Read on to understand more about its specifications, user reviews, pricing details, and how it can transform your auditory experience with its superior technology and design.<br></br>
 <br></br>
 
 <h1>Product Features</h1>
@@ -50,7 +50,7 @@ Technical Specifications:
 <li><ul><b>Frequency Range:</b> Capable of delivering a broad range of sounds, enhancing speech clarity and reducing background noise</ul></li>
 <li><ul><b>IP Rating:</b> Water-resistant, ensuring functionality in diverse weather conditions</ul></li>
 
-These specifications detail the technical aspects and performance capabilities of the Signia BTE Fun SP, highlighting its adaptability and robustness in various auditory environments. This comprehensive information helps users gauge the product’s suitability for their specific hearing needs.
+These specifications detail the technical aspects and performance capabilities of the Signia BTE Fun SP, highlighting its adaptability and robustness in various auditory environments. This comprehensive information helps users gauge the product&apos;s suitability for their specific hearing needs.
 
 <h1>Benefits</h1>
 

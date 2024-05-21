@@ -15,9 +15,9 @@ const PocketHearingAid = () => {
     <div className={styles.Heading}>
       <h1 >Pocket Hearing Aids </h1>
     </div>
-    <div className={styles.ProductImage}>
+    {/* <div className={styles.ProductImage}>
       <Image src='/Products/ActivePro.png' alt='KitActivePro' width={500} height={400} /> 
-    </div>
+    </div> */}
     <div className={styles.ProductDescription}>
       
       Discover Unparalleled Freedom with Our Advanced Pocket Hearing Aids. Designed for your comfort and convenience, our pocket hearing aids offer a seamless hearing experience. At HearingHope, we understand the importance of clarity and ease in your daily communications. Whether you&apos;re at a family gathering, in a business meeting, or enjoying the outdoors, our pocket hearing aids are engineered to provide exceptional sound quality in every environment.<br></br><br></br>

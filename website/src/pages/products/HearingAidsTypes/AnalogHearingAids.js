@@ -16,7 +16,7 @@ const AnalogHearingAids = () => {
       <h1 >Analog Hearing Aids</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/ActivePro.png' alt='AnalogHearingAid' width={500} height={400} /> 
+      <Image src='/Products/BTEFunSP.png' alt='AnalogHearingAid' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       

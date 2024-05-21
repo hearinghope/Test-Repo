@@ -16,11 +16,11 @@ const Digital8Channel = () => {
       <h1 >Digital 8 Channel</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/ActivePro.png' alt='KitActivePro' width={500} height={400} /> 
+      <Image src='/Products/SigniaBTEPromptPSP.png' alt='KitActivePro' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       <br></br>
-      Experience unparalleled clarity and comfort with the Signia Digital 8 Channel Hearing Aid, designed for those who seek the best in auditory assistance. This state-of-the-art device ensures you never miss a moment, enhancing sounds across diverse environments while maintaining a natural listening experience. Whether you're engaging in quiet conversations or navigating bustling settings, Signia Digital adapts to meet your hearing needs with precision.<br></br><br></br>
+      Experience unparalleled clarity and comfort with the Signia Digital 8 Channel Hearing Aid, designed for those who seek the best in auditory assistance. This state-of-the-art device ensures you never miss a moment, enhancing sounds across diverse environments while maintaining a natural listening experience. Whether you&apos;re engaging in quiet conversations or navigating bustling settings, Signia Digital adapts to meet your hearing needs with precision.<br></br><br></br>
 Our advanced 8-channel system provides a range of hearing solutions tailored to improve your quality of life. Equipped with cutting-edge technology, this hearing aid offers superior noise reduction, wireless connectivity, and user-friendly features, all packaged in a discreet, comfortable design. Ideal for users with mild to moderate hearing loss, Signia Digital ensures that every sound is crisp and clear.<br></br>
 <h1>Key Features and Benefits of Signia Digital 8 Channel Hearing Aid</h1>
 
@@ -71,18 +71,18 @@ These features are designed to not only enhance sound quality but also to provid
 <li><ul><b>Charging Station:</b> Compact and efficient charging station available for rechargeable models.</ul></li>
 <li><ul><b>Remote Control:</b> Optional remote control for easy adjustments without using a smartphone app.</ul></li>
 
-These technical specifications underscore the Signia Digital 8 Channel Hearing Aid's commitment to providing advanced, user-friendly hearing solutions. By integrating high-tech features with practical design elements, this hearing aid promises both performance and ease of use, catering to the diverse needs of individuals with hearing impairment.
+These technical specifications underscore the Signia Digital 8 Channel Hearing Aid&apos;s commitment to providing advanced, user-friendly hearing solutions. By integrating high-tech features with practical design elements, this hearing aid promises both performance and ease of use, catering to the diverse needs of individuals with hearing impairment.
 
 <h1>How the Signia Digital 8 Channel Hearing Aid Works</h1>
 
-The Signia Digital 8 Channel Hearing Aid utilizes a combination of advanced technologies and user-centric design to enhance hearing capabilities efficiently. Here’s a detailed breakdown of how it functions:
+The Signia Digital 8 Channel Hearing Aid utilizes a combination of advanced technologies and user-centric design to enhance hearing capabilities efficiently. Here&apos;s a detailed breakdown of how it functions:
 
 <b>1. Sound Capture and Analysis</b>
 <li><ul><b>Microphones:</b> The device is equipped with sensitive microphones that capture sounds from the environment. These microphones are designed to pick up a wide range of frequencies, from low to high, ensuring that all relevant sounds are included.</ul></li>
-<li><ul><b>Sound Analysis:</b> Once captured, the sounds are analyzed by the device's processor. The analysis involves identifying the type of sound (e.g., speech, music, noise) and its source direction.</ul></li>
+<li><ul><b>Sound Analysis:</b> Once captured, the sounds are analyzed by the device&apos;s processor. The analysis involves identifying the type of sound (e.g., speech, music, noise) and its source direction.</ul></li>
 
 <b>2. Digital Signal Processing (DSP)</b>
-<li><ul><b>Channel Division:</b> The processor divides these sounds into eight separate channels. Each channel processes a specific range of frequencies, allowing for more refined adjustments tailored to the user’s specific hearing loss profile.</ul></li>
+<li><ul><b>Channel Division:</b> The processor divides these sounds into eight separate channels. Each channel processes a specific range of frequencies, allowing for more refined adjustments tailored to the user&apos;s specific hearing loss profile.</ul></li>
 <li><ul><b>Sound Enhancement:</b> Within each channel, sounds can be amplified, shaped, or modified to improve clarity and quality. This includes enhancing speech frequencies to make conversations clearer and reducing background noise for better focus on primary sounds.</ul></li>
 
 <b>3. Noise Reduction Technology</b>
@@ -90,7 +90,7 @@ The Signia Digital 8 Channel Hearing Aid utilizes a combination of advanced tech
 <li><ul><b>Directional Microphone Systems:</b> These microphones focus on the sound coming from the front (usually where conversation originates), which is particularly useful in noisy environments like restaurants or crowded streets.</ul></li>
 
 <b>4. Output Delivery</b>
-<li><ul><b>Customized Sound Delivery:</b> The processed and enhanced sound is then delivered into the ear through a small speaker within the hearing aid. The delivery is finely tuned to the user's individual hearing loss pattern, ensuring that the sound is both clear and comfortable.</ul></li>
+<li><ul><b>Customized Sound Delivery:</b> The processed and enhanced sound is then delivered into the ear through a small speaker within the hearing aid. The delivery is finely tuned to the user&apos;s individual hearing loss pattern, ensuring that the sound is both clear and comfortable.</ul></li>
 <li><ul><b>Feedback Management:</b> The device continuously monitors for feedback and adjusts the sound output to prevent any whistling or buzzing noises, which are common issues in many hearing aids.</ul></li>
 
 <b>5. User Interaction and Control</b>

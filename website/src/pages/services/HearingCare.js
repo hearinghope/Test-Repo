@@ -19,7 +19,7 @@ const HearingCare = () => {
           <h1 style={{color:'teal'}}>Hearing Care</h1>
         </div>
         <div className={styles.BlogImage}>
-          <Image src='/Service/HearingTest.png' alt='Blog' height={200} width={400} style={{borderRadius:'2px'}}  />
+          <Image src='/Service/ServiceHearingTest.png' alt='Blog' height={200} width={400} style={{borderRadius:'2px'}}  />
         </div>
         <div className={styles.BlogDescription}>
           At Hearing Hope, we understand the profound impact that hearing loss can have on your life. That&apos;s why our dedicated team of experts is committed to providing exceptional hearing care services right here in Delhi. With our state-of-the-art facilities and personalised approach, we ensure that each visit is a step towards better hearing and an enhanced quality of life.<br></br>

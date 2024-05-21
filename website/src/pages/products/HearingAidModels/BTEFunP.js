@@ -16,13 +16,13 @@ const BTEFunP = () => {
       <h1 >BTE Fun P</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/ActivePro.png' alt='KitActivePro' width={500} height={400} /> 
+      <Image src='/Products/SigniaBTEFastP.png' alt='BTEFunP' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       
-    Welcome to HearingHope.in, your trusted source for quality hearing solutions. Here, we introduce the Signia BTE Fun P hearing aid, specifically designed for individuals experiencing severe to profound hearing loss. This advanced device offers exceptional sound clarity and comfort, ensuring you don't miss out on the sounds that matter most in your life. <br></br><br></br>
+    Welcome to HearingHope.in, your trusted source for quality hearing solutions. Here, we introduce the Signia BTE Fun P hearing aid, specifically designed for individuals experiencing severe to profound hearing loss. This advanced device offers exceptional sound clarity and comfort, ensuring you don&apos;t miss out on the sounds that matter most in your life. <br></br><br></br>
 
-The Signia BTE Fun P is engineered to enhance your auditory experience with its state-of-the-art technology and user-friendly features. Whether you're engaging in conversation, enjoying your favorite TV shows, or simply savoring the sounds of nature, this hearing aid is designed to improve your hearing ability and overall quality of life. Read on to discover how the Signia BTE Fun P can transform your daily interactions and bring clear, crisp sound back into your world.
+The Signia BTE Fun P is engineered to enhance your auditory experience with its state-of-the-art technology and user-friendly features. Whether you&apos;re engaging in conversation, enjoying your favorite TV shows, or simply savoring the sounds of nature, this hearing aid is designed to improve your hearing ability and overall quality of life. Read on to discover how the Signia BTE Fun P can transform your daily interactions and bring clear, crisp sound back into your world.
 <br></br><br></br>
 <h1>Key Features</h1>
 

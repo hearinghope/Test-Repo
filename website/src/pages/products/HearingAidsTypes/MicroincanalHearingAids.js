@@ -16,7 +16,7 @@ const MicroInCanalHearingAids = () => {
       <h1 >Micro In Canal Hearing Aids</h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/ActivePro.png' alt='KitActivePro' width={500} height={400} /> 
+      <Image src='/Products/CICInsio1PXCustom.png' alt='Micro in canal hearing aid' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       

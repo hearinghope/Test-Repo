@@ -16,7 +16,7 @@ const RICHearingAids = () => {
       <h1 >RIC Hearing Aids </h1>
     </div>
     <div className={styles.ProductImage}>
-      <Image src='/Products/ActivePro.png' alt='KitActivePro' width={500} height={400} /> 
+      <Image src='/Products/Styletto RIC.png' alt='RIC Hearing Aid' width={500} height={400} /> 
     </div>
     <div className={styles.ProductDescription}>
       

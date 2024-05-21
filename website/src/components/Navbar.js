@@ -77,10 +77,10 @@ const Navbar = () => {
         <Link href="/about" style={{ fontWeight: '500' }}>
           About
         </Link>
-        <Link href="/onlineHearingTest" style={{ fontWeight: '500'}}>
+        {/* <Link href="/onlineHearingTest" style={{ fontWeight: '500'}}>
           Online Hearing Test
           <p style={{fontSize: '10px', color:'orange'}}>Quick Test!!</p>
-        </Link>
+        </Link> */}
         <div className={styles.dropdown}>
           <span
             className={styles.dropbtn}
@@ -94,7 +94,7 @@ const Navbar = () => {
               <Link href="../../services/AllServices" className={styles.dropdownContentLinks}>All Services</Link>
               <Link href="../../services/HearingTest" className={styles.dropdownContentLinks}>Hearing Test Services</Link>
               <Link href="../../services/SpeechTherapy" className={styles.dropdownContentLinks}>Speech Therapy Services</Link>
-              <Link href="../../services/Audiologist" className={styles.dropdownContentLinks}>Audiologist</Link>
+              {/* <Link href="../../services/Audiologist" className={styles.dropdownContentLinks}>Audiologist</Link> */}
               <Link href="../../services/HearingCare" className={styles.dropdownContentLinks}>Hearing Care</Link>
               <Link href="../../services/HearingAidCentre" className={styles.dropdownContentLinks}>Hearing Aid Centre</Link>
             </div>
@@ -131,7 +131,7 @@ const Navbar = () => {
                   </div>
                 )}
               </div>
-              <div className={styles.subDropdown} onClick={toggleSubProduct2Menu}>
+              {/* <div className={styles.subDropdown} onClick={toggleSubProduct2Menu}>
                 <span>Hearing Aids Accessories &#9662;</span>
                 {isSubProduct2MenuOpen && (
                   <div className={styles.subDropdownContent}>
@@ -140,7 +140,7 @@ const Navbar = () => {
                     <Link href="/products/HearingAidAccessories-3" className={styles.subDropdownContentLinks}>Hearing Aid Accessories-3</Link>
                   </div>
                 )}
-              </div>
+              </div> */}
               <div className={styles.subDropdown} onClick={toggleSubProduct3Menu}>
                 <span>Hearing Aids Models &#9662;</span>
                 {isSubProduct3MenuOpen && (
